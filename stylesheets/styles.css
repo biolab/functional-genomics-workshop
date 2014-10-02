@@ -16,6 +16,11 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+p.tab {
+  padding-left: 22px;
+  text-indent: -22px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -78,9 +83,12 @@ table {
 
 th, td {
   text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  padding:1px 0px;
+  border-bottom:0px solid #e5e5e5;
+  vertical-align:top;
 }
+
+table tr.separator { height: 1em;}
 
 dt {
   color:#444;
